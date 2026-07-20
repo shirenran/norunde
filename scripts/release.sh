@@ -98,4 +98,4 @@ fi
 echo "==> Publishing GitHub Release $TAG"
 gh "${GH_ARGS[@]}"
 echo "==> Done"
-gh release view "$TAG" --json url,tagName,isDraft,isLatest --jq .
+gh release view "$TAG" --json url,tagName,isDraft,isPrerelease,assets --jq '{url,tagName,isDraft,isPrerelease,assets:[.assets[].name]}'
