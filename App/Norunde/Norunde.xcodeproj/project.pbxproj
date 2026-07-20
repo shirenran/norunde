@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* NorundeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* NorundeApp.swift */; };
+		A10000000000000000000002 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Project.swift */; };
+		A10000000000000000000003 /* ProjectStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* ProjectStatus.swift */; };
+		A10000000000000000000004 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* AppConfig.swift */; };
+		A10000000000000000000005 /* ProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* ProjectStore.swift */; };
+		A10000000000000000000006 /* ProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* ProcessManager.swift */; };
+		A10000000000000000000007 /* LogBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* LogBuffer.swift */; };
+		A10000000000000000000008 /* PackageJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* PackageJsonParser.swift */; };
+		A10000000000000000000009 /* PathEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* PathEnvironment.swift */; };
+		A1000000000000000000000A /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* AppViewModel.swift */; };
+		A1000000000000000000000B /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* MenuBarView.swift */; };
+		A1000000000000000000000C /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* ProjectListView.swift */; };
+		A1000000000000000000000D /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* ProjectDetailView.swift */; };
+		A1000000000000000000000E /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* LogView.swift */; };
+		A1000000000000000000000F /* ProjectEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* ProjectEditorView.swift */; };
+		A10000000000000000000010 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* StatusBadgeView.swift */; };
+		A10000000000000000000011 /* ShellQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* ShellQuote.swift */; };
+		A10000000000000000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* Assets.xcassets */; };
+		A10000000000000000000013 /* PackageJsonParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* PackageJsonParserTests.swift */; };
+		A10000000000000000000014 /* ProjectStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* ProjectStoreTests.swift */; };
+		A10000000000000000000015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* AppDelegate.swift */; };
+		A10000000000000000000016 /* EditorPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001A /* EditorPanelController.swift */; };
+		A10000000000000000000017 /* ExternalProcessFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001B /* ExternalProcessFinder.swift */; };
+		A10000000000000000000018 /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001C /* LoginItemService.swift */; };
+		A10000000000000000000019 /* PortDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001D /* PortDetector.swift */; };
+		A1000000000000000000001A /* SingleInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001E /* SingleInstance.swift */; };
+		A1000000000000000000001B /* LogWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001F /* LogWindowController.swift */; };
+		A1000000000000000000001C /* DirectoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* DirectoryPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = Norunde;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* NorundeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorundeApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* ProjectStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStatus.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* ProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* ProcessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* LogBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogBuffer.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* PackageJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageJsonParser.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* PathEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathEnvironment.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* ProjectEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEditorView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadgeView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* ShellQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellQuote.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* DirectoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryPicker.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000013 /* PackageJsonParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageJsonParserTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* ProjectStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStoreTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000016 /* Norunde.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Norunde.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000017 /* Norunde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Norunde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000018 /* NorundeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorundeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1000000000000000000001A /* EditorPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPanelController.swift; sourceTree = "<group>"; };
+		B1000000000000000000001B /* ExternalProcessFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalProcessFinder.swift; sourceTree = "<group>"; };
+		B1000000000000000000001C /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemService.swift; sourceTree = "<group>"; };
+		B1000000000000000000001D /* PortDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortDetector.swift; sourceTree = "<group>"; };
+		B1000000000000000000001E /* SingleInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleInstance.swift; sourceTree = "<group>"; };
+		B1000000000000000000001F /* LogWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000002 /* Norunde */,
+				G10000000000000000000003 /* NorundeTests */,
+				G10000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000000000000000000002 /* Norunde */ = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000005 /* App */,
+				G10000000000000000000006 /* Models */,
+				G10000000000000000000007 /* Services */,
+				G10000000000000000000008 /* ViewModels */,
+				G10000000000000000000009 /* Views */,
+				G1000000000000000000000A /* Utilities */,
+				G1000000000000000000000B /* Resources */,
+			);
+			path = Norunde;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000003 /* NorundeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000013 /* PackageJsonParserTests.swift */,
+				B10000000000000000000014 /* ProjectStoreTests.swift */,
+			);
+			path = NorundeTests;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000017 /* Norunde.app */,
+				B10000000000000000000018 /* NorundeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* NorundeApp.swift */,
+				B10000000000000000000019 /* AppDelegate.swift */,
+				B1000000000000000000001E /* SingleInstance.swift */,
+				B1000000000000000000001A /* EditorPanelController.swift */,
+				B1000000000000000000001F /* LogWindowController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* Project.swift */,
+				B10000000000000000000003 /* ProjectStatus.swift */,
+				B10000000000000000000004 /* AppConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000005 /* ProjectStore.swift */,
+				B10000000000000000000006 /* ProcessManager.swift */,
+				B10000000000000000000007 /* LogBuffer.swift */,
+				B10000000000000000000008 /* PackageJsonParser.swift */,
+				B10000000000000000000009 /* PathEnvironment.swift */,
+				B1000000000000000000001B /* ExternalProcessFinder.swift */,
+				B1000000000000000000001C /* LoginItemService.swift */,
+				B1000000000000000000001D /* PortDetector.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000A /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000B /* MenuBarView.swift */,
+				B1000000000000000000000C /* ProjectListView.swift */,
+				B1000000000000000000000D /* ProjectDetailView.swift */,
+				B1000000000000000000000E /* LogView.swift */,
+				B1000000000000000000000F /* ProjectEditorView.swift */,
+				B10000000000000000000010 /* StatusBadgeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000011 /* ShellQuote.swift */,
+				B10000000000000000000020 /* DirectoryPicker.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000012 /* Assets.xcassets */,
+				B10000000000000000000015 /* Info.plist */,
+				B10000000000000000000016 /* Norunde.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* Norunde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000003 /* Build configuration list for PBXNativeTarget "Norunde" */;
+			buildPhases = (
+				I10000000000000000000001 /* Sources */,
+				F10000000000000000000001 /* Frameworks */,
+				I10000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Norunde;
+			productName = Norunde;
+			productReference = B10000000000000000000017 /* Norunde.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10000000000000000000002 /* NorundeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000004 /* Build configuration list for PBXNativeTarget "NorundeTests" */;
+			buildPhases = (
+				I10000000000000000000003 /* Sources */,
+				F10000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				J10000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = NorundeTests;
+			productName = NorundeTests;
+			productReference = B10000000000000000000018 /* NorundeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E10000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = H10000000000000000000001 /* Build configuration list for PBXProject "Norunde" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = G10000000000000000000001;
+			productRefGroup = G10000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* Norunde */,
+				E10000000000000000000002 /* NorundeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		I10000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		I10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* NorundeApp.swift in Sources */,
+				A10000000000000000000015 /* AppDelegate.swift in Sources */,
+				A10000000000000000000016 /* EditorPanelController.swift in Sources */,
+				A10000000000000000000002 /* Project.swift in Sources */,
+				A10000000000000000000003 /* ProjectStatus.swift in Sources */,
+				A10000000000000000000004 /* AppConfig.swift in Sources */,
+				A10000000000000000000005 /* ProjectStore.swift in Sources */,
+				A10000000000000000000006 /* ProcessManager.swift in Sources */,
+				A10000000000000000000007 /* LogBuffer.swift in Sources */,
+				A10000000000000000000008 /* PackageJsonParser.swift in Sources */,
+				A10000000000000000000009 /* PathEnvironment.swift in Sources */,
+				A10000000000000000000017 /* ExternalProcessFinder.swift in Sources */,
+				A10000000000000000000018 /* LoginItemService.swift in Sources */,
+				A10000000000000000000019 /* PortDetector.swift in Sources */,
+				A1000000000000000000001A /* SingleInstance.swift in Sources */,
+				A1000000000000000000001B /* LogWindowController.swift in Sources */,
+				A1000000000000000000000A /* AppViewModel.swift in Sources */,
+				A1000000000000000000000B /* MenuBarView.swift in Sources */,
+				A1000000000000000000000C /* ProjectListView.swift in Sources */,
+				A1000000000000000000000D /* ProjectDetailView.swift in Sources */,
+				A1000000000000000000000E /* LogView.swift in Sources */,
+				A1000000000000000000000F /* ProjectEditorView.swift in Sources */,
+				A10000000000000000000010 /* StatusBadgeView.swift in Sources */,
+				A10000000000000000000011 /* ShellQuote.swift in Sources */,
+				A1000000000000000000001C /* DirectoryPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		I10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000013 /* PackageJsonParserTests.swift in Sources */,
+				A10000000000000000000014 /* ProjectStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		J10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000001 /* Norunde */;
+			targetProxy = C10000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		K10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		K10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		K10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Norunde/Resources/Norunde.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Norunde/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.norunde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		K10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Norunde/Resources/Norunde.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Norunde/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.norunde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		K10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.norunde.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Norunde.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Norunde";
+			};
+			name = Debug;
+		};
+		K10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.norunde.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Norunde.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Norunde";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H10000000000000000000001 /* Build configuration list for PBXProject "Norunde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K10000000000000000000001 /* Debug */,
+				K10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H10000000000000000000003 /* Build configuration list for PBXNativeTarget "Norunde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K10000000000000000000003 /* Debug */,
+				K10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H10000000000000000000004 /* Build configuration list for PBXNativeTarget "NorundeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K10000000000000000000005 /* Debug */,
+				K10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10000000000000000000001 /* Project object */;
+}

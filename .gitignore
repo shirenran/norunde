@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage (not used, ignore if appear)
+Pods/
+Carthage/Build/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# IDEs
+.idea/
+*.swp
+*~
+
+# Env / secrets
+.env
+.env.*
+
+# App local config (user-specific runtime; not in repo)
+# projects.json lives under Application Support, not the repo
+
+# Archives
+*.xcarchive
+
+# Local AI / task workflow (not part of the public product)
+.trellis/
+.claude/
+AGENTS.md
