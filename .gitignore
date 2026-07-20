@@ -5,6 +5,7 @@
 
 # Xcode
 build/
+dist/
 DerivedData/
 *.xcuserstate
 *.xccheckout
