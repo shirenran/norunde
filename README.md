@@ -189,6 +189,10 @@ swift scripts/smoke-logic.swift
 cd App/Norunde && xcodebuild -project Norunde.xcodeproj -scheme Norunde -destination 'platform=macOS' test
 ```
 
+## 友链
+
+- [Linux.do](https://linux.do)
+
 ## License
 
 [MIT](LICENSE)
